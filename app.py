@@ -32,7 +32,7 @@ st.set_page_config(
 )
 
 # ── Load CSS ─────────────────────────────────────────────────────
-with open("static/style.css") as f:
+with open("Static/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
