@@ -1,0 +1,178 @@
+/* ── Main App ──────────────────────────────────────────── */
+.main {
+    padding: 0rem 1rem;
+}
+
+/* ── Header ────────────────────────────────────────────── */
+.main-header {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 1rem 0 0.5rem;
+}
+
+.sub-header {
+    font-size: 1.1rem;
+    color: #f8f3f3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* ── Insight Cards ──────────────────────────────────────── */
+.insight-card {
+    background: #242739;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s;
+}
+
+.insight-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+/* ── Metric Cards ───────────────────────────────────────── */
+.metric-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ── Step Cards (beginner guide) ────────────────────────── */
+.step-card {
+    background: linear-gradient(135deg, #667eea11, #764ba211);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    border-left: 4px solid #667eea;
+}
+
+/* ── Health Score ───────────────────────────────────────── */
+.health-excellent { color: #28a745; }
+.health-good      { color: #ffc107; }
+.health-fair      { color: #fd7e14; }
+.health-poor      { color: #dc3545; }
+
+/* ── Tooltip Style ──────────────────────────────────────── */
+.tooltip-text {
+    font-size: 0.8rem;
+    color: #f1eeee;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+/* ── Upload Zone ────────────────────────────────────────── */
+.upload-hint {
+    background: #f8f9ff;
+    color:black;
+    border: 2px dashed #667eea;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* ── Tab Styling ────────────────────────────────────────── */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 6px;
+    background: #f8f9fa;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.stTabs [aria-selected="true"] {
+    background: white !important;
+    color: orangered;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ── Buttons ────────────────────────────────────────────── */
+.stButton > button {
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ── Expanders ──────────────────────────────────────────── */
+.streamlit-expanderHeader {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* ── Sidebar ────────────────────────────────────────────── */
+.css-1d391kg {
+    background: #f8f9fa;
+}
+
+/* ── Beginner Badge ─────────────────────────────────────── */
+.beginner-badge {
+    background: #667eea22;
+    color: #667eea;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+/* ── Warning Cards ──────────────────────────────────────── */
+.warn-card {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+
+/* ── Success Cards ──────────────────────────────────────── */
+.success-card {
+    background: #d4edda;
+    border: 1px solid #28a745;
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+
+/* ── Chat ───────────────────────────────────────────────── */
+.stChatMessage {
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* ── Dataframe ──────────────────────────────────────────── */
+.dataframe {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ── Footer ─────────────────────────────────────────────── */
+.footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.8rem;
+    padding: 2rem 0 1rem;
+    border-top: 1px solid #eee;
+    margin-top: 2rem;
+}
